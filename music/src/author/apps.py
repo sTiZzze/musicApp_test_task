@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class SongConfig(AppConfig):
+class AuthorConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'src.song'
+    name = 'src.author'
